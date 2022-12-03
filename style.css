@@ -52,10 +52,10 @@ nav ul{
 
 /* ニュース */
 .news{
-  margin: 4px 258px 120px 220px;
+  margin: 4px 258px 105px 220px;
 }
 
-.news_title{
+.news_title, .about_title{
   width: 140px;
   height: 35px;
   font: normal normal normal 36px/24px Meiryo;
@@ -64,7 +64,7 @@ nav ul{
   color: #000000;
 }
 
-.news_subtitle{
+.news_subtitle, .about_subtitle{
   font: normal normal normal 14px/24px Meiryo;
   margin-bottom: 34px;
   height: 21px;
@@ -128,3 +128,27 @@ hr{
   font: normal normal normal 14px/24px Meiryo;
 }
 
+/* ABOUT */
+.about{
+  display: flex;
+}
+
+.about_left{
+  width: 795px;
+}
+
+.about_image{
+  width: 100%;
+  height: 400px;
+}
+
+.about_right{
+  padding: 188px 0 0 70px;
+  width: 575px;
+  height: 505px;
+  margin-bottom: 120pxgit ;
+}
+
+.about_text{
+  font: normal normal normal 14px/31px Meiryo;
+}
