@@ -8,6 +8,10 @@ body{
   margin: 0 auto;
 }
 
+img{
+  width: 100%;
+}
+
 /* ヘッダー */
 header{
   display: flex;
@@ -55,7 +59,7 @@ nav ul{
   margin: 4px 258px 105px 220px;
 }
 
-.news_title, .about_title{
+.news_title, .about_title, .business_title{
   width: 140px;
   height: 35px;
   font: normal normal normal 36px/24px Meiryo;
@@ -64,7 +68,7 @@ nav ul{
   color: #000000;
 }
 
-.news_subtitle, .about_subtitle{
+.news_subtitle, .about_subtitle, .business_subtitle{
   font: normal normal normal 14px/24px Meiryo;
   margin-bottom: 34px;
   height: 21px;
@@ -146,9 +150,39 @@ hr{
   padding: 188px 0 0 70px;
   width: 575px;
   height: 505px;
-  margin-bottom: 120pxgit ;
+  margin-bottom: 135px;
 }
 
 .about_text{
   font: normal normal normal 14px/31px Meiryo;
+}
+
+/* BUSINESS */
+.business{
+  margin: 4px 240px 50px 220px
+}
+.business_content{
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 8%;
+  margin-bottom: 120px;
+}
+
+.business_content_left{
+  width: 368px;
+  margin: 97px 20px 0 23px;
+}
+
+.business_content_title{
+  font-weight: bold;
+  margin: 3px 0 10px 0;
+  font-size: 14px;
+}
+
+.business_content_left_buttom{
+  margin-top: 50px;
+}
+
+.business_content_right{
+  width: 368px;
 }
