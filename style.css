@@ -59,7 +59,7 @@ nav ul{
   margin: 4px 258px 105px 220px;
 }
 
-.news_title, .about_title, .business_title{
+.news_title, .about_title, .business_title, .company_title{
   width: 140px;
   height: 35px;
   font: normal normal normal 36px/24px Meiryo;
@@ -68,7 +68,7 @@ nav ul{
   color: #000000;
 }
 
-.news_subtitle, .about_subtitle, .business_subtitle{
+.news_subtitle, .about_subtitle, .business_subtitle, .company_subtitle{
   font: normal normal normal 14px/24px Meiryo;
   margin-bottom: 34px;
   height: 21px;
@@ -159,13 +159,13 @@ hr{
 
 /* BUSINESS */
 .business{
-  margin: 4px 240px 50px 220px
+  margin: 4px 240px 0px 220px
 }
 .business_content{
   display: flex;
   justify-content: space-between;
   padding: 0px 8%;
-  margin-bottom: 120px;
+  margin-bottom: 118px;
 }
 
 .business_content_left{
@@ -185,4 +185,48 @@ hr{
 
 .business_content_right{
   width: 368px;
+}
+
+/* COMPANY */
+.company{
+  height: 640px;
+  width: 567px;
+  background: white;
+  padding: 104px 264px 100px 62px;
+  position: relative;
+  margin: 0px 258px 105px 204px;
+}
+hr{
+  margin-bottom: 50px;
+}
+
+.company_content_left{
+  display: flex;
+  width: 410px;
+}
+
+.compnay_content_left_left{
+  width: 84px;
+  font: normal normal normal 14px/35px Meiryo;
+}
+
+.company_content_left_part{
+  height: 21px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.company_content_left_right{
+  font: normal normal normal 14px/35px Meiryo;
+}
+
+.company_content_right{
+  position: absolute;
+  width: 546px;
+  top: 113px;
+  left: 485px;
+}
+.company_image{
+  height: 395px;
 }
